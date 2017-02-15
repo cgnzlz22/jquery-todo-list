@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+	background-image: url(../img/RD2.png);
+	background-size: 35%;
+	background-repeat: no-repeat;
+
+}
+h1{
+	color: #f675a5;
+	font-family: 'pinkp', sans-serif;
+	font-weight: bold;
+	text-shadow: black 2px 2px 1px;
+	font-size: 48px;
+}
+
+.done {
+	/*cursor: pointer;*/
+}
+
+#sort-list {
+	list-style: none;
+	font-family: 'pinkp', sans-serif;
+	color: #e54a69;
+	padding-bottom: 12px;
+	margin: 0 auto;
+}
+
+li {
+	padding: 10px;
+ 	margin-top: 5px;
+ 	margin-right: auto;
+ 	margin-bottom: 5px;
+ 	margin-left: auto;
+ 	list-style: none;
+ 	border: 1px solid whitesmoke;
+ 	width: 50%;
+ 	text-align: center;
+}
+
+.done{
+	cursor: pointer;
+}
+
+img {
+	
+    height: auto;
+    width: 30%;
+	padding-top: 12px;
+
+}
+
+@font-face {
+    font-family: 'pinkp';
+    src: url(../PinkPanther.ttf) format('truetype');
+}
